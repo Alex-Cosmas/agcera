@@ -10,6 +10,7 @@ function Header() {
         <div className='flex gap-6'>
           <div>Products</div>
           <div>Opportunity</div>
+          <div>Events</div>
         </div>
         <div>
           <div>Contacts</div>
