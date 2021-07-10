@@ -6,7 +6,7 @@ const products = [
     image: '../AGCERA.jpg',
     title: 'Ag Cera',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? ',
 
     price: '70',
   },
@@ -14,7 +14,7 @@ const products = [
     image: '../AGCERA.jpg',
     title: 'Ag Cera',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? ',
 
     price: '70',
   },
@@ -22,7 +22,7 @@ const products = [
     image: '../AGCERA.jpg',
     title: 'Ag Cera',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? ',
 
     price: '70',
   },
@@ -42,10 +42,16 @@ function FeaturedProduct() {
                   <img src={featured.image} alt='' className='w-full h-60' />
 
                   <div className='p-4'>
-                    <div className='text-xl font-semibold text-gray-500'>
+                    <div className='text-xl font-semibold text-center text-gray-500'>
                       {featured.title}
                     </div>
-                    <div>{featured.description}</div>
+                    {/* <div>{featured.description}</div> */}
+                  </div>
+
+                  <div>
+                    <button className='w-full py-4 text-center text-white bg-gray-900'>
+                      View Product
+                    </button>
                   </div>
                 </div>
               </div>
