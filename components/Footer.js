@@ -1,4 +1,4 @@
-export default function Footer() {
+function Footer() {
   return (
     <>
       {/* flex flex-col items-center justify-center px-4 md:px-24 py-10 mx-auto */}
@@ -54,3 +54,4 @@ export default function Footer() {
     </>
   )
 }
+export default Footer

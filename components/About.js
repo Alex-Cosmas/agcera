@@ -1,4 +1,4 @@
-export default function About() {
+function About() {
   return (
     <>
       <div className='flex flex-col items-center justify-center px-4 py-10 mx-auto md:px-24'>
@@ -27,3 +27,4 @@ export default function About() {
     </>
   )
 }
+export default About

@@ -1,7 +1,34 @@
 /* eslint-disable @next/next/no-img-element */
-import { products } from '../pages/productData'
+// import { products } from '../pages/productData'
 
-export default function FeaturedProduct() {
+const products = [
+  {
+    image: '../AGCERA.jpg',
+    title: 'Ag Cera',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.',
+
+    price: '70',
+  },
+  {
+    image: '../AGCERA.jpg',
+    title: 'Ag Cera',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.',
+
+    price: '70',
+  },
+  {
+    image: '../AGCERA.jpg',
+    title: 'Ag Cera',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.',
+
+    price: '70',
+  },
+]
+
+function FeaturedProduct() {
   return (
     <section id='products'>
       <div className='flex flex-col items-center justify-center px-4 py-10 mx-auto md:px-24'>
@@ -29,3 +56,5 @@ export default function FeaturedProduct() {
     </section>
   )
 }
+
+export default FeaturedProduct
