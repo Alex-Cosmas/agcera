@@ -2,7 +2,7 @@ function Footer() {
   return (
     <>
       {/* flex flex-col items-center justify-center px-4 md:px-24 py-10 mx-auto */}
-      <div className='flex flex-col items-center justify-center px-4 py-10 mx-auto text-white bg-gray-900 md:px-24'>
+      <div className='flex flex-col items-center justify-center p-6 py-10 mx-auto text-white bg-gray-900 '>
         <div className=''>
           <div className='grid gap-4 md:grid-cols-3'>
             <div className='FooterAbout'>

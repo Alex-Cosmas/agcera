@@ -1,11 +1,9 @@
 // import Image from 'next/image'
 import Head from 'next/head'
 
-import Header from '~/components/Header'
 import HeroComponent from '~/components/Hero'
 import About from '~/components/About'
 import FeaturedProduct from '~/components/Featured'
-import Footer from '~/components/Footer'
 
 function Home() {
   return (
@@ -16,18 +14,14 @@ function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <div className='py-5'>
-        <Header />
-      </div>
       <div>
         <HeroComponent />
       </div>
 
-      <main>
+      <div>
         <About />
         <FeaturedProduct />
-        <Footer />
-      </main>
+      </div>
     </div>
   )
 }

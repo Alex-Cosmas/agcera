@@ -1,48 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
-// import { products } from '../pages/productData'
-
-const products = [
-  {
-    image: '../AGCERA.jpg',
-    title: 'Ag Cera',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? ',
-
-    price: '70',
-  },
-  {
-    image: '../agbroc_product.png',
-    title: 'Ag Broc',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? ',
-
-    price: '70',
-  },
-  {
-    image: '../AGBeauty-products.jpg',
-    title: 'Ag Beauty',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? ',
-
-    price: '70',
-  },
-  {
-    image: '../agcoffee_product.png',
-    title: 'Ag Coffee',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? ',
-
-    price: '70',
-  },
-]
+import { useState } from 'react'
+import { FeaturedProducts } from '~/pages/api/featured'
 
 function FeaturedProduct() {
+  const [products, setProducts] = useState(FeaturedProducts)
   return (
     <section id='products'>
       <div className='flex flex-col items-center justify-center px-4 py-10 mx-auto md:px-24'>
         <h1 className='my-4 text-3xl'>Featured Products</h1>
 
-        <div className='grid gap-4 md:grid-cols-4'>
+        <div className='grid gap-x-4 gap-y-8 md:grid-cols-3'>
           {products.map(function (featured, idx) {
             return (
               <div key={idx} className='flex flex-col'>
@@ -50,7 +17,6 @@ function FeaturedProduct() {
                   <div className='text-xl font-semibold text-center text-gray-500'>
                     {featured.title}
                   </div>
-                  {/* <div>{featured.description}</div> */}
                 </div>
                 <div className='overflow-hidden bg-white rounded-md shadow-xl'>
                   <img src={featured.image} alt='' className='w-full h-60' />
