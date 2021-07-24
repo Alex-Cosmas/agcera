@@ -37,9 +37,9 @@ function AgBeauty() {
                       </div>
                       <div className='overflow-hidden bg-white rounded-md shadow-xl'>
                         <img
-                          src='/AgBeauty/ag-beauty-2s.png'
+                          src='/Face Mist 2.jpg'
                           alt=''
-                          className='w-full h-60'
+                          className='object-contain w-full h-60'
                         />
 
                         <div>
@@ -64,9 +64,9 @@ function AgBeauty() {
                       </div>
                       <div className='overflow-hidden bg-white rounded-md shadow-xl'>
                         <img
-                          src='/AgBeauty/ag-beauty-2s.png'
+                          src='/Ag Serum 1.jpg'
                           alt=''
-                          className='w-full h-60'
+                          className='object-contain w-full h-60'
                         />
 
                         <div>
@@ -93,7 +93,7 @@ function AgBeauty() {
                         <img
                           src='/AgCleanser/cleanseraa.png'
                           alt=''
-                          className='w-full h-60'
+                          className='object-contain w-full h-60'
                         />
 
                         <div>
