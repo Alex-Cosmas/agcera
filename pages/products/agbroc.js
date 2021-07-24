@@ -1,3 +1,6 @@
+import Ingredients from '~/components/ProductAccordion/AgBroc/AgBrocIngredients'
+import Benefits from '~/components/ProductAccordion/AgBroc/AgBrocBenefits'
+
 function AgBroc() {
   return (
     <>
@@ -15,6 +18,36 @@ function AgBroc() {
           </div>
         </div>
       </div>
+
+      {/*  */}
+      <div className='my-5 shadow-md bg-gray-50'>
+        <div className='grid '>
+          <div>
+            <div>
+              <p className=''></p>
+            </div>
+          </div>
+          <div>
+            <Ingredients />
+          </div>
+        </div>
+      </div>
+      {/*  */}
+
+      {/*  */}
+      <div className='my-5 shadow-md bg-gray-50'>
+        <div className='grid '>
+          <div>
+            <div>
+              <p className=''></p>
+            </div>
+          </div>
+          <div>
+            <Benefits />
+          </div>
+        </div>
+      </div>
+      {/*  */}
     </>
   )
 }

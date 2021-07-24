@@ -1,3 +1,5 @@
+import Benefits from '~/components/ProductAccordion/AgDrink/AgDrinkBenefits'
+
 function AgDrink() {
   return (
     <>
@@ -17,6 +19,21 @@ function AgDrink() {
           </div>
         </div>
       </div>
+
+      {/*  */}
+      <div className='my-5 shadow-md bg-gray-50'>
+        <div className='grid '>
+          <div>
+            <div>
+              <p className=''></p>
+            </div>
+          </div>
+          <div>
+            <Benefits />
+          </div>
+        </div>
+      </div>
+      {/*  */}
     </>
   )
 }

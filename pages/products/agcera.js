@@ -24,16 +24,16 @@ function AgCera() {
 
         <div className='my-5 shadow-md bg-gray-50'>
           <div className='grid '>
-            <div>
+            <div className='p-4'>
               <div>
                 AG Cera is made up of 8 powerful Ingredients:
-                <p>
+                <div>
                   • Ceramosides • Hytolive • Sakura • Curcumin • Gymnema
                   Sylvestre • Pomegranate • Mixed Berried • White Peach
-                </p>
+                </div>
               </div>
             </div>
-            <div>
+            <div className='p-4'>
               <AgCeraIngredients />
             </div>
           </div>
