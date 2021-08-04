@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 function Footer() {
   return (
     <>
@@ -9,6 +11,13 @@ function Footer() {
               <p>
                 We at AG Nutrition provide outstanding products & services that
                 meet our distributor and consumer’s needs.
+                <div className='mt-2 text-gray-100'>
+                  <Link href='https://www.agnutritioninternational.com'>
+                    <a target='_blank' rel='noreferrer'>
+                      Visit the main AgCera Website for more information
+                    </a>
+                  </Link>
+                </div>
               </p>
             </div>
             <div>
@@ -16,36 +25,29 @@ function Footer() {
                 <p>
                   Kenya Office
                   <br />
-                  Woodlands 11 <br />
-                  11 Woodlands Close <br />
-                  #08-20 Singapore 737853 <br />
+                  A.G. Nutrition Kenya <br />
+                  Kimathi House, 4th Floor, <br />
+                  Kimathi Street, <br />
+                  Nairobi, Kenya · <br />
                 </p>
                 <hr className='my-3' />
                 <div className=''>
                   Contact Details:
-                  <p>Noor +65 9459 4679</p>
+                  <p>Julie Okeyo +254 713 701 723</p>
                 </div>
               </div>
             </div>
             <div>
               <div className='flex flex-col'>
                 <p>
-                  Singapore Office
-                  <br />
-                  Woodlands 11 <br />
-                  11 Woodlands Close <br />
-                  #08-20 Singapore 737853 <br />
+                  Head Office (Malaysia) <br />
+                  Ag Nutrition International SDN BHD <br />
+                  No. G-9 Infinity Tower, <br />
+                  Jalan SS 6/3, <br />
+                  47301 Petaling Jaya, <br /> Selangor Darul Ehsan, <br />
+                  Malaysia.
                 </p>
                 <hr className='my-3' />
-                <div>
-                  <p>
-                    Singapore Office
-                    <br />
-                    Woodlands 11 <br />
-                    11 Woodlands Close <br />
-                    #08-20 Singapore 737853 <br />
-                  </p>
-                </div>
               </div>
             </div>
           </div>
