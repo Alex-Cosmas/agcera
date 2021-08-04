@@ -33,7 +33,7 @@ function Footer() {
                 <hr className='my-3' />
                 <div className=''>
                   Contact Details:
-                  <p>Julie Okeyo +254 713 701 723</p>
+                  <p>Julie: +254 713 701 723</p>
                 </div>
               </div>
             </div>

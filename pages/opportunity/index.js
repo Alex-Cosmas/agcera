@@ -8,7 +8,7 @@ export default function Opportunity() {
   const [skills, setSkills] = useState(KeySkills)
   return (
     <>
-      <div className='grid gap-4 my-5'>
+      <div className='grid gap-4 px-4 my-5 '>
         {/* <h1>Opportunity</h1> */}
 
         <div className='text-2xl font-semibold'>
