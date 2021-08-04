@@ -1,3 +1,4 @@
+import MoreProducts from '~/components/MoreProducts'
 import Benefits from '~/components/ProductAccordion/AgFibree/AgFibreeBenefits'
 
 function AgFibree() {
@@ -34,6 +35,8 @@ function AgFibree() {
         </div>
       </div>
       {/*  */}
+
+      <MoreProducts />
     </>
   )
 }

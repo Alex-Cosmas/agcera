@@ -12,7 +12,6 @@ export default function Opportunity() {
         {/* <h1>Opportunity</h1> */}
 
         <div className='text-2xl font-semibold'>
-          {' '}
           <h1>Why is it easy to make money with agcera?</h1>
         </div>
 
@@ -27,7 +26,7 @@ export default function Opportunity() {
           social capital.
         </p>
         <p>AgCera is a a popular product and you can make money through:</p>
-        <div className='flex space-x-5'>
+        <div className='grid gap-3 md:grid-cols-2'>
           <div className='flex items-center gap-2'>
             <MdCheckCircle />{' '}
             <h2 className='font-semibold'> Referral earnings:</h2>

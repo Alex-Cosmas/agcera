@@ -1,4 +1,6 @@
+import MoreProducts from '~/components/MoreProducts'
 import Benefits from '~/components/ProductAccordion/AgDrink/AgDrinkBenefits'
+
 
 function AgDrink() {
   return (
@@ -34,6 +36,8 @@ function AgDrink() {
         </div>
       </div>
       {/*  */}
+
+      <MoreProducts />
     </>
   )
 }

@@ -4,7 +4,7 @@ export default function TestimonialImages() {
   return (
     <>
       <div className='p-4'>
-        <div className='grid grid-cols-3 gap-5'>
+        <div className='grid gap-5 md:grid-cols-3'>
           <div className='py-2 mx-auto bg-white shadow rounded-xl'>
             <div className='m-6'>
               <img

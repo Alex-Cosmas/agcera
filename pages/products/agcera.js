@@ -1,6 +1,9 @@
+
 import AgCeraIngredients from '~/components/ProductAccordion/AgCera/AgCeraIngredients'
 import HowtoConsume from '~/components/ProductAccordion/AgCera/HowtoConsume'
 import AgCeraVideos from '~/components/ProductAccordion/AgCera/Videos'
+
+import MoreProducts from '~/components/MoreProducts'
 
 function AgCera() {
   return (
@@ -8,7 +11,7 @@ function AgCera() {
       <h1 className='my-4 text-3xl'>AgCera</h1>
 
       <div className=''>
-        <div className='flex shadow-md bg-gray-50'>
+        <div className='flex flex-col shadow-md md:flex-row bg-gray-50'>
           <div className='h-full md:w-1/4'>
             <img src='/AGCERA.jpg' alt='' />
           </div>
@@ -73,6 +76,8 @@ function AgCera() {
           </div>
         </div>
       </div>
+
+      <MoreProducts />
     </>
   )
 }

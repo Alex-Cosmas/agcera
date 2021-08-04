@@ -1,5 +1,5 @@
 import Link from 'next/link'
-
+import MoreProducts from '~/components/MoreProducts'
 function AgBeauty() {
   return (
     <>
@@ -112,6 +112,7 @@ function AgBeauty() {
         </div>
       </div>
       {/*  */}
+      <MoreProducts />
     </>
   )
 }

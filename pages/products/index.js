@@ -6,7 +6,7 @@ export default function Products() {
       <div>
         <h1 className='my-4 text-3xl'>Our Products</h1>
 
-        <div className='grid grid-cols-2 gap-4 my-10'>
+        <div className='grid gap-4 my-10 md:grid-cols-2'>
           <ProductWrapper />
         </div>
       </div>
